@@ -44,8 +44,8 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('一个随机的idea111112222:'),
             BigCard(pair: pair),
+            SizedBox(height: 10),
             ElevatedButton(
               onPressed: () {
                 appState.getNext();
